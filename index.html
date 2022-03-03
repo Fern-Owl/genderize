@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Genderize App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h2>GENDERIZE</h2>
+
+        <form onsubmit="return false" class="form-block">
+          <input id="name-field" class="input-add" type="text" placeholder="Enter a name" />
+          <button id="btn-get" class="btn-get">
+            <img src="./img/gender-icon.png" alt="get a name button" />
+          </button>
+        </form>
+      </div>
+      <div class="gender-box">
+        <span id="gender" class="gender"> ... </span>
+      </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
